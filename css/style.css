@@ -1,0 +1,623 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header_logo {
+  position: absolute;
+  width: 100%;
+  background-color: #ffffff6b;
+}
+
+/* Contenedor principal */
+.contenedorLogin {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  height: 100dvh;
+}
+
+/* Estilos para la parte izquierda */
+.portada_left {
+  width: 65%;
+  height: 100%;
+  /* Imagen de fondo para la parte izquierda */
+  background: url(../imagenes/NuevoBannerLogin.jpg) no-repeat center right;
+  background-size: cover;
+}
+
+/* Estilos para el formulario y parte derecha */
+.form_rigth {
+  width: 35%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+/* Estilos para el logo de Distinct */
+.logodistinct {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logodistinct_img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+/* Estilos para la bienvenida */
+.bienvenida {
+  font-size: 1rem;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Estilos para el campo de texto */
+.texto {
+  width: 100%;
+  height: 2rem;
+  margin-bottom: 1rem;
+  border: 1px solid #a3a1a1;
+  border-radius: 5px;
+  padding: 1.2rem 1rem;
+  font-size: 1rem;
+}
+
+/* Estilos para el enlace de ingresar */
+.ingresar {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  background-color: #bf8883;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  border: 2px solid white;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.ingresar:before {
+  border-radius: 10px;
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  border: 2px solid #bf8883;
+  transition: all 0.3s ease-in-out;
+}
+
+.ingresar:hover {
+  background-color: white;
+  color: #bf8883;
+  transition: all 0.3s ease-in-out;
+}
+
+.ingresar:hover:before {
+  border-color: #bf8883;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Estilos para el mensaje de error o éxito */
+.mensaje {
+  font-size: 1rem;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.formulario {
+  padding: 1rem;
+  max-width: 375px;
+  margin: auto;
+}
+
+.piepagina_Login {
+  position: absolute;
+  bottom: 1rem;
+  right: 0;
+  left: 0;
+}
+
+.piepagina_Login .piepagina {
+  width: 30%;
+  margin: auto;
+  display: block;
+}
+
+/* Estilos para dispositivos con ancho máximo de 768px */
+@media screen and (max-width: 900px) {
+  .header_logo {
+    position: relative;
+  }
+
+  .contenedorLogin {
+    height: auto;
+  }
+
+  /* Ajustar la parte izquierda al 100% del alto */
+  .portada_left {
+    width: 100%;
+    height: 30vh;
+    height: 30dvh;
+  }
+
+  /* Ajustar el formulario al 100% del alto y quitar el estilo 'display: flex' */
+  .form_rigth {
+    width: 100%;
+    height: fit-content;
+    display: block;
+    position: static;
+    margin-top: 2rem;
+  }
+
+  /* Ajustar el ancho del formulario al centro de la pantalla */
+  .formulario {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.hijo {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.cuponimagen {
+  width: 100%;
+  height: auto;
+}
+
+/* Estilos para computadoras */
+@media screen and (min-width: 768px) {
+  .imagen_computadora {
+    display: block;
+  }
+
+  .imagen_celular {
+    display: none;
+  }
+
+  .cabecera {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .cabecera .centrado {
+    text-align: center;
+  }
+
+  .cabecera img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .cupon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 10px;
+  }
+
+  .cuponimagen {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 900px) {
+  .imagen_celular {
+    width: -webkit-fill-available;
+    display: block;
+    height: auto;
+    object-fit: contain;
+    margin: 0 1rem;
+  }
+
+  .imagen_computadora {
+    display: none;
+  }
+
+  .cabecera {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .cabecera .centrado {
+    text-align: center;
+  }
+
+  .cabecera img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .cupon {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    grid-gap: 20px;
+    padding: 10px;
+  }
+
+  .info_cliente {
+    padding-top: 0px;
+    padding-bottom: 15px;
+    height: fit-content;
+    position: relative;
+  }
+
+  .info_cliente .bienvenida {
+    margin-top: 0 !important;
+    padding: 0 !important;
+    text-align: left;
+  }
+
+  .logodistinct {
+    padding-bottom: 0;
+  }
+
+  .logodistinct .logodistinct_img {
+    margin-bottom: 0;
+  }
+
+  .informacion_cupones {
+    padding: 0;
+  }
+
+  .informacion_cupones .cupones h2 {
+    font-size: 20px;
+  }
+
+  .cliente {
+    text-align: left !important;
+  }
+
+  .header_index .logodistinct_img {
+    max-width: 100%;
+    height: auto;
+    width: 120px;
+    margin-top: 1rem;
+  }
+}
+
+/* Estilos específicos del encabezado */
+.contenedor_info {
+  max-width: 950px;
+  margin: auto;
+}
+
+.contenedor_info {
+  padding: 0 1rem;
+}
+
+.header_index {
+  background-color: white;
+  margin-bottom: 1rem;
+}
+
+.header_index .logodistinct {
+  text-align: center;
+  padding: 10px;
+}
+
+.header_index .logodistinct_img {
+  max-width: 100%;
+  height: auto;
+  width: 140px;
+  margin-top: 1rem;
+}
+
+/* Estilos específicos de la información del cliente */
+.info_cliente {
+  height: fit-content;
+}
+
+.info_cliente .nombre {
+  padding: 20px;
+  text-align: left;
+  background-color: #f5f5f561;
+  border-radius: 10px;
+}
+
+.info_cliente .bienvenido {
+  font-size: 22px;
+  margin-top: 0;
+}
+
+.info_cliente .nombre_h2 {
+  font-size: 20px;
+  font-family: "Poppins-Light";
+  font-weight: 500;
+}
+
+.info_cliente .bienvenida {
+  font-size: 16px;
+  background-color: #fbfbfb;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 1rem;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.info_cliente .info {
+  font-size: 20px;
+}
+
+.puntoscliente {
+  background-color: #f5f5f561;
+  width: fit-content;
+  padding: 13px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.info_cliente .puntoscliente h2 {
+  font-size: 20px;
+}
+
+.info_cliente .puntoscliente h3 {
+  font-size: 20px;
+}
+
+.info_cliente .puntoscliente .info {
+  font-size: 20px;
+}
+
+/* Estilos específicos de la información de los cupones */
+.informacion_cupones {
+  padding-top: 0;
+}
+
+.informacion_cupones h2 {
+  text-align: center;
+}
+
+.informacion_cupones .info_img {
+  text-align: center;
+}
+
+.informacion_cupones .cupones {
+  text-align: center;
+}
+
+.informacion_cupones .cupones h2 {
+  font-size: 30px;
+  margin-top: 1rem;
+}
+
+.informacion_cupones .cupones .cupon {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+/* Estilos específicos del pie de página */
+footer .piepagina {
+  padding: 20px;
+  width: 217px;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.cliente {
+  text-align: center;
+}
+
+.contmenu {
+  display: block;
+  position: relative;
+}
+
+.adorno {
+  position: absolute;
+  height: 128px;
+  left: -100px;
+  top: 24%;
+  object-fit: contain;
+  width: 170px !important;
+  z-index: -2;
+}
+
+.adorno1 {
+  position: absolute;
+  height: 128px;
+  right: -100px;
+  top: 24%;
+  object-fit: contain;
+  width: 170px !important;
+  z-index: -2;
+}
+
+@media only screen and (max-width: 600px) {
+  .adorno {
+    position: absolute;
+    height: 128px;
+    left: -51px;
+    top: 24%;
+    object-fit: contain;
+    width: 148px !important;
+    z-index: -2;
+  }
+
+  .adorno1 {
+    position: absolute;
+    height: 128px;
+    right: -51px;
+    top: 24%;
+    object-fit: contain;
+    width: 148px !important;
+    z-index: -2;
+  }
+}
+
+.titulo {
+  background-color: #b79e95;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  font-family: system-ui;
+}
+
+.pasos {
+  font-size: 15px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.pasos .numero-grande {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.fotoruta {
+  height: 125px;
+}
+
+.contfoto {
+  margin: auto;
+}
+
+.contenedor-cartilla {
+  padding: 2rem 0;
+}
+
+.fotocartillaproducto {
+  height: 80px;
+  object-fit: contain;
+  margin: auto;
+  text-align: center;
+  display: block;
+  margin-top: 2px;
+  margin-bottom: 15px;
+}
+
+.pasocont {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.pasoitem {
+  min-width: 150px;
+}
+
+/* Estilos personalizados para el botón "Ver Tutorial" */
+.btn-custom-primary {
+  background-color: white;
+  border: 1px #97847d solid;
+  color: #97847d;
+  padding: 5px;
+  display: block;
+  min-width: max-content;
+}
+
+.btn-custom-primary:hover {
+  background-color: #97847d;
+  /* Cambia esto al color deseado en hover */
+  color: white;
+  /* Cambia esto al color de texto deseado en hover */
+  /* Otros estilos hover según tus preferencias */
+}
+
+/* Estilos personalizados para el botón "Comprar" */
+.btn-custom-success {
+  margin-left: 5px;
+  background-color: #97847d;
+  color: #fff;
+}
+
+.btn-custom-success:hover {
+  background-color: white;
+  /* Cambia esto al color deseado en hover */
+  color: #97847d;
+  /* Cambia esto al color de texto deseado en hover */
+  /* Otros estilos hover según tus preferencias */
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilo para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+  .fotocartillaproducto {
+    height: 75px;
+  }
+  .btn-custom-success {
+    margin-left: 5px;
+    background-color: #97847d;
+    color: #fff;
+    position: relative;
+    margin: 7px 0;
+  }
+
+  .elemento a,
+  .elemento button {
+    display: block;
+    width: 100%;
+  }
+
+  .fotoruta {
+    height: auto;
+    /* Rotar la imagen 90 grados en sentido horario */
+    transform: rotate(90deg);
+    /* Ajusta la propiedad de transform según tu necesidad */
+  }
+
+  .contfoto {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .pasocontv2 {
+    display: contents;
+    /* Otros estilos específicos para dispositivos móviles si es necesario */
+    width: 97%;
+    display: flex;
+    /* Otros estilos específicos para dispositivos móviles si es necesario */
+  }
+
+  .pasocontv2 .elemento {
+    width: 50%;
+    /* Otros estilos específicos para dispositivos móviles si es necesario */
+  }
+
+  .botones {
+    display: block;
+  }
+}

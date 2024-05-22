@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="50px" viewBox="0 0 100 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>main-manual</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 26 43 26 43 0 0 0"></polygon>
+    </defs>
+    <g id="Payment-Logos" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main-manual">
+            <g id="Manual-PAyments" transform="translate(28.000000, 12.000000)">
+                <g id="Page-1">
+                    <polygon id="Fill-1" fill="#72C8FF" points="0 24.0740741 43 24.0740741 43 0 0 0"></polygon>
+                    <polygon id="Fill-2" fill="#247FCE" points="0 25.037037 43 25.037037 43 22.1481481 0 22.1481481"></polygon>
+                    <g id="Group-10">
+                        <path d="M40.3538462,16.2962 L40.3538462,6.1562 C38.5041846,5.98953333 37.0349077,4.53286667 36.8093231,2.66686667 L5.52516923,2.66686667 C5.32736923,4.30286667 4.17629231,5.62486667 2.64615385,6.04086667 L2.64615385,16.4115333 C4.0334,16.7882 5.11435385,17.9068667 5.45306154,19.3335333 L36.8807692,19.3335333 C37.2724,17.6855333 38.6563385,16.4488667 40.3538462,16.2962 Z" id="Fill-3" fill="#D2EDFF"></path>
+                        <path d="M26.7141138,11.0052 C26.7141138,14.0658667 24.2776677,16.5465333 21.2716369,16.5465333 C18.2656062,16.5465333 15.8284985,14.0658667 15.8284985,11.0052 C15.8284985,7.94453333 18.2656062,5.4632 21.2716369,5.4632 C24.2776677,5.4632 26.7141138,7.94453333 26.7141138,11.0052" id="Fill-5" fill="#76C9FD"></path>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-8"></g>
+                        <polygon id="Fill-7" fill="#76C9FD" mask="url(#mask-2)" points="7.3788 12.002 12.8464154 12.002 12.8464154 10.1333333 7.3788 10.1333333"></polygon>
+                        <polygon id="Fill-9" fill="#76C9FD" mask="url(#mask-2)" points="29.6958 12.002 35.1634154 12.002 35.1634154 10.1333333 29.6958 10.1333333"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

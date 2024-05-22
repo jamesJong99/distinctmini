@@ -1,0 +1,415 @@
+body {
+    background-color: #ffede6;
+    font-family:Helvetica;
+    font-size:10px;
+    margin:0px;
+  }
+  
+  .padre 
+  {
+    text-align:center;
+  }
+  
+  .hijo 
+  {
+    width:420px;
+    margin:0 auto;
+    background-color:#fbf7fa;
+  }
+
+  .buttonAdm {
+    background-color: #ff6375; /* Green */
+    border: none;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+
+  
+  .tablaSinCambioColor
+  {
+    width:100%;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+
+  .tablaSinCambioColor td, tablaSinCambioColor th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  .tablaSinCambioColor th
+  {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #97847d;
+    color: white;
+  }
+
+  
+
+  .MensajeOk
+  {
+    background-color: #cbdbf5;
+    color:black;
+    margin-top:5px;
+    margin-bottom: 5px;
+  }
+
+  .MensajeError
+  {
+    background-color: #ad4260;
+    color:white;
+    margin-top:5px;
+    margin-bottom: 5px;
+  }
+
+  .pago_porconfirmar
+  {
+    background-color: #f5d0dc;
+  }
+
+  .pago_confirmado
+  {
+    background-color: #e2f5d0;
+  }
+
+  .FotoVistaAdmReducida
+  {
+    max-width:50px;
+    max-height: 50px;
+  }
+
+  .FotoVistaAdm
+  {
+    max-width:170px;
+    max-height: 170px;
+  }
+
+  .BoucherVistaAdm
+  {
+    max-width:350px;
+    max-height: 350px;
+  }
+
+ 
+
+  
+
+  .Lista
+  {
+    padding: 5px;
+
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .ListaItem
+  {
+    float: left;
+    width:50%;
+    text-align: center;
+  }
+
+  .ListaItem:after
+  {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .boton
+  {
+    height: 30px;
+  }
+  
+  .separacion
+  {
+    background-color:#ffede6;
+  }
+
+  
+  .headerNombreUsuario
+  {
+    color:#000000;
+    font-weight: bold;
+    font-size: 12px;
+    text-align:left;
+  }
+
+  
+  .headerTabla
+  {
+    width:100%;
+  }
+	
+  .reporteTabla
+  {
+    width:100%;
+    table-layout: fixed;
+  }
+
+  .reporteTabla table, .reporteTabla th, .reporteTabla td
+  {
+    border: 1px solid;
+  }
+
+
+  .reporteTablaDet
+  {
+    width:100%;
+  }
+
+  .reporteTablaDet table, .reporteTablaDet th, .reporteTablaDet td
+  {
+    border: 1px solid;
+  }
+
+  
+  .nombre
+  {
+    margin:1px;
+    width:100%;
+  }
+  
+  .direcc
+  {
+    margin:1px;
+    width:100%;
+    height:75px;
+  }
+  .datosRegular
+  {
+    margin:1px;
+    width:100%;
+    height:35px;
+  }
+  
+  
+  .numero 
+  {
+    margin:1px;
+    width: 100%;
+  }
+  
+  .negrita 
+  {
+    font-weight: bold;
+  }
+  
+  .resultadofinal 
+  {
+    font-weight: bold;
+    background-color:blue;
+  }
+  
+  .mensaje
+  {
+    color:red;
+  }
+  
+  .consideraciones
+  {
+    text-align:left;
+  }
+  
+  .centrado
+  {
+    text-align: center;
+  }
+
+  .alineadoIzquierda
+  {
+    text-align: left;
+  }
+  
+  h1
+  {
+    text-align: center;
+    font-size: 18px;
+    font-weight:bold;
+    color:#57443d;
+  }
+  
+  h2
+  {
+    font-size: 16px;
+  }
+  
+  h3
+  {
+    font-size: 14px;
+  }
+
+ 
+  
+  .recomendacion
+  {
+    text-align: left;
+    font-size: 12px;
+  }
+  
+  .asterisco
+  {
+    color: red;
+  }
+  
+  .tabladatos
+  {
+    width:100%;
+    font-size: 12px;
+  }
+  
+  .tablaResultados
+  {
+    width:100%;
+  }
+
+  .tablaResultadosClientes
+  {
+    width:100%;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+
+  .tablaResultadosClientes td, tablaResultadosClientes th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .tablaResultadosClientes tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .tablaResultadosClientes tr:hover {background-color: #ddd;}
+
+  .tablaResultadosClientes th
+  {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #97847d;
+    color: white;
+  }
+
+  
+
+  .tablaDatosCliente
+  {
+    width:100%;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+
+  .tablaDatosCliente td, tablaDatosCliente th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .tablaDatosCliente tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .tablaDatosCliente tr:hover {background-color: #ddd;}
+
+  .tablaDatosCliente th
+  {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #97847d;
+    color: white;
+  }
+
+
+  
+  .tablaDatosPedidos
+  {
+    width:100%;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+
+  .tablaDatosPedidos td, tablaDatosPedidos th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .tablaDatosPedidos tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .tablaDatosPedidos tr:hover {background-color: #ddd;}
+
+  .tablaDatosPedidos th
+  {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #97847d;
+    color: white;
+  }
+
+
+  .tablaPedidosItem
+  {
+    width:100%;
+    border-collapse: collapse;
+    font-size: 12px;
+  }
+  
+  .LinkPedido
+  {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+  }
+
+ .Pedidos
+ {
+
+  border: 1px solid #000000;
+}
+
+.cuponimagen
+	{
+	  width: 80%;
+	  margin-bottom: 0px;
+  
+	}
+
+  .cupon
+	{
+	  margin-bottom: 10px;
+  
+	}
+	
+	
+   .productocotizacion
+	{
+	  max-width:100px;
+    max-height:100px;
+  
+	}
+
+  .productorevisarvariante
+	{
+	  max-width:150px;
+    max-height:150px;
+  
+	}
+
+  .productofotosdetallada
+	{
+	  max-width:150px;
+    max-height:150px;
+  
+	}
+
+  .nuevaCant 
+  {
+    max-width:15px;
+  }

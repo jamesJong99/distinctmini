@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'GeorgiaBallpark Serif';
+    src: url('GeorgiaBallpark-Serif.woff2') format('woff2'),
+        url('GeorgiaBallpark-Serif.woff') format('woff'),
+        url('GeorgiaBallpark-Serif.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sansumi';
+    src: url('Sansumi-Regular.woff2') format('woff2'),
+        url('Sansumi-Regular.woff') format('woff'),
+        url('Sansumi-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Coneria Script Demo';
+    src: url('ConeriaScriptDemo.woff2') format('woff2'),
+        url('ConeriaScriptDemo.woff') format('woff'),
+        url('ConeriaScriptDemo.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sansumi';
+    src: url('Sansumi-UltraLight.woff2') format('woff2'),
+        url('Sansumi-UltraLight.woff') format('woff'),
+        url('Sansumi-UltraLight.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Valentime';
+    src: url('Valentime.woff2') format('woff2'),
+        url('Valentime.woff') format('woff'),
+        url('Valentime.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

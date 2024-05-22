@@ -1,0 +1,115 @@
+
+   
+   #container {
+    margin: 0 auto;
+    /*width: 460px;*/
+   /* padding: 2em;*/
+   padding: 0em;
+   /* background: red;*/
+   /* background: #DCDDDF;*/
+   }
+   
+   .ui-progress-bar {
+   
+    margin-top: 0em;
+    margin-bottom: 0em;
+
+      /*
+    margin-top: 1em;
+    margin-bottom: 1em;
+    */
+   }
+   
+   .ui-progress span.ui-label {
+    font-size: 1.2em;
+    position: absolute;
+    right: 0;
+    line-height: 33px;
+    padding-right: 12px;
+    color: rgba(0,0,0,0.6);
+    text-shadow: rgba(255,255,255, 0.45) 0 1px 0px;
+    white-space: nowrap;
+   }
+   
+   @-webkit-keyframes animate-stripes {
+    from {
+    background-position: 0 0;
+    }
+   
+    to {
+    background-position: 44px 0;
+    }
+   
+   }
+   
+   .ui-progress-bar {
+    position: relative;
+    height: 35px;
+    padding-right: 2px;
+    background-color: #abb2bc;
+    border-radius: 35px;
+    -moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #e2c2bf), color-stop(1, #c18a85));
+    background: -moz-linear-gradient(#9da5b0 0%, #b6bcc6 100%);
+    -webkit-box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.5), 0px 1px 0px 0px #FFF;
+    -moz-box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.5), 0px 1px 0px 0px #FFF;
+    box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.5), 0px 1px 0px 0px #FFF;
+   }
+
+   
+   
+   .ui-progress {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    height: 33px;
+    -moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    border-radius: 35px;
+    -webkit-background-size: 44px 44px;
+    background-color: #fdf8ea;
+    background: -webkit-gradient(linear, 0 0, 44 44, color-stop(0.00, rgba(255,255,255,0.17)), color-stop(0.25, rgba(255,255,255,0.17)), color-stop(0.26, rgba(255,255,255,0)), color-stop(0.50, rgba(255,255,255,0)), color-stop(0.51, rgba(255,255,255,0.17)), color-stop(0.75, rgba(255,255,255,0.17)), color-stop(0.76, rgba(255,255,255,0)), color-stop(1.00, rgba(255,255,255,0)) ), -webkit-gradient(linear, left bottom, left top, color-stop(0, #fdf8ea), color-stop(1, #fdf8ea));
+    background: -moz-repeating-linear-gradient(top left -30deg, rgba(255,255,255,0.17), rgba(255,255,255,0.17) 15px, rgba(255,255,255,0) 15px, rgba(255,255,255,0) 30px ), -moz-linear-gradient(#fdf8ea 0%, #fdf8ea 100%);
+    -webkit-box-shadow: inset 0px 1px 0px 0px#c18a85, inset 0px -1px 1px #fdf8ea;
+    -moz-box-shadow: inset 0px 1px 0px 0px#c18a85, inset 0px -1px 1px #fdf8ea;
+    box-shadow: inset 0px 1px 0px 0px#c18a85, inset 0px -1px 1px #fdf8ea;
+    border: 1px solid#c18a85;
+    -webkit-animation: animate-stripes 2s linear infinite;
+   }
+
+   /*
+   .ui-progress-bar {
+    position: relative;
+    height: 35px;
+    padding-right: 2px;
+    background-color: #abb2bc;
+    border-radius: 35px;
+    -moz-border-radius: 35px;
+    -webkit-border-radius: 35px;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #b6bcc6), color-stop(1, #9da5b0));
+    background: -moz-linear-gradient(#9da5b0 0%, #b6bcc6 100%);
+    -webkit-box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.5), 0px 1px 0px 0px #FFF;
+    -moz-box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.5), 0px 1px 0px 0px #FFF;
+    box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.5), 0px 1px 0px 0px #FFF;
+   }
+
+   .ui-progress {
+      position: relative;
+      display: block;
+      overflow: hidden;
+      height: 33px;
+      -moz-border-radius: 35px;
+      -webkit-border-radius: 35px;
+      border-radius: 35px;
+      -webkit-background-size: 44px 44px;
+      background-color: #74d04c;
+      background: -webkit-gradient(linear, 0 0, 44 44, color-stop(0.00, rgba(255,255,255,0.17)), color-stop(0.25, rgba(255,255,255,0.17)), color-stop(0.26, rgba(255,255,255,0)), color-stop(0.50, rgba(255,255,255,0)), color-stop(0.51, rgba(255,255,255,0.17)), color-stop(0.75, rgba(255,255,255,0.17)), color-stop(0.76, rgba(255,255,255,0)), color-stop(1.00, rgba(255,255,255,0)) ), -webkit-gradient(linear, left bottom, left top, color-stop(0, #74d04c), color-stop(1, #9bdd62));
+      background: -moz-repeating-linear-gradient(top left -30deg, rgba(255,255,255,0.17), rgba(255,255,255,0.17) 15px, rgba(255,255,255,0) 15px, rgba(255,255,255,0) 30px ), -moz-linear-gradient(#9bdd62 0%, #74d04c 100%);
+      -webkit-box-shadow: inset 0px 1px 0px 0px #dbf383, inset 0px -1px 1px #58c43a;
+      -moz-box-shadow: inset 0px 1px 0px 0px #dbf383, inset 0px -1px 1px #58c43a;
+      box-shadow: inset 0px 1px 0px 0px #dbf383, inset 0px -1px 1px #58c43a;
+      border: 1px solid #4c8932;
+      -webkit-animation: animate-stripes 2s linear infinite;
+     }
+   */

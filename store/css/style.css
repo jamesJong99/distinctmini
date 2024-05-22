@@ -1,0 +1,68 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: arial;
+}
+
+.cabecera {
+  background-color: white;
+}
+
+
+@font-face {
+  font-family: "Poppins-Light";
+  src: url("Poppins-Light.woff2") format("woff2"),
+    url("Poppins-Light.woff") format("woff"),
+    url("Poppins-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+h1 {
+  font-family: "Poppins-Light";
+  font-size: calc(1em + 1vw);
+  color: #8f6b60 !important;
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-family: "Poppins-Light";
+  font-size: calc(0.9em + 0.9vw);
+  color: #8f6b60;
+  margin-bottom: 5px;
+
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: "Poppins-Light";
+  font-size: calc(0.6em + 0.6vw);
+  color: #4b4b4b;
+}
+
+
+.info {
+  font-family: "Poppins-Light";
+  text-align: left;
+  font-size: calc(0.6em + 0.6vw);
+}
+
+h3 {
+  font-family: "Poppins-Light";
+  text-align: left;
+  font-size: calc(0.7em + 0.7vw);
+}
+
+.underlineprecio {
+  text-decoration: line-through;
+}

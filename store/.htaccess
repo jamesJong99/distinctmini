@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /distinctmini/store/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^index\.php/(.*)$ $1 [R=301,L]
+RewriteRule ^categoria/([a-z0-9-]+)/pagina/([0-9]+)/?$ categoria.php?slug=$1&pagina=$2 [L,QSA,NC]
+RewriteRule ^categoria/([a-z0-9-]+)/?$ categoria.php?slug=$1 [L,QSA,NC]
+RewriteRule ^producto/([a-z0-9-]+)/?$ producto.php?slug=$1 [L,QSA,NC]
+RewriteRule ^buscar/pagina/([0-9]+)/?$ resultados.php?pagina=$1 [L,QSA,NC]
+RewriteRule ^([a-z0-9-]+)/?$ paginas.php?slug=$1 [L,QSA,NC]
